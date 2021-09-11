@@ -1,0 +1,80 @@
+body {
+  background:rgb(255, 255, 255);
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: white;
+  background-image: url("../images/blog-image3.png");
+  background-size: 700px;
+  background-position: center;
+  height: 700px;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  text-align: center;
+}
+
+nav ul {
+  margin: 20px;
+  padding: 0;
+  list-style-type: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  color: black;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+h1 {
+  text-align:center;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+section {
+  background: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+section div {
+  background: rgb(255, 255, 255);
+  color: black;
+  width: 100%;
+  margin: 1px;
+}
+
+footer {
+  background: whitesmoke;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 20px;
+}
+
+@media screen and (min-width: 400px) {
+  .features {
+    background:  pink;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .features {
+    background: red;
+  }
+}
