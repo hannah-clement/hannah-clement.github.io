@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Identity & Values</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Hometime?</a></li>
+          </ul>
+        </nav>
+
+    <h1>Let's Get Technical; The Margin, Border and Padding Lowdown</h1>
+    <h2>Margin, border and padding make up what is called the “Box Model” in CSS. The Box Model is a model that is used to show the layout which wraps around every HTML element.  Each of these space holders can be adjusted to change the size of the box/space around the content itself. </h2>
+
+    <p>
+        Before diving in any deeper, a clear distinction between margin and padding is that:
+        Margin defines the distance between the elements - working outside of the element. 
+        Whereas, padding is used to create space between the border and the content - so it works within the element. 
+    </p>
+    <p>
+        Both padding and margin are transparent. The border goes around the padding and content - wrapping it all together. On that note, let’s cue the metaphor to make this theory a little more tangible.     </p>
+    <p><em>
+        It’s Christmas time or your birthday or any occasion that springs to mind where you’d get two or more presents. Yay! Each of these presents have been lovingly wrapped and placed spaced out on the floor in front of you. Because why not? 
+    </p></em>
+    <p><em>
+        Stick with me here, each of your presents is an HTML element. The transparent space between your presents is the margin in this case. The wrapping paper/box that you can’t wait to tear off/open is the border and the size of this box relative to your actual present/content is the padding. As you’ll know the size of the box can be deceptively bigger than the present itself.  I trust that you put two and two together and realised that the present is the content. 
+    </p></em>
+    <p>
+        Perhaps, yes - this metaphor is a little convoluted. Please see an illustration below of the CSS Box model which may clear a few things up for you. 
+    </p>
+
+    <a href="../images/margin-illustration.jpg"></a>
+    <p>
+        Fantastic! So lucky us, with all this knowledge we have the divine power to change the size of the margin, border, and padding through the CSS below.  Go on, give it a go. 
+
+        div {
+        width: 200px;
+        border: 15px solid purple;
+        padding: 50px;
+        margin: 20px;
+        }
+
+    </p>
+  </body>
+</html>
