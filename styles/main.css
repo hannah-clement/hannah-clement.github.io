@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-header {
+.header {
   background: white;
   background-image: url("images/blog-image3.png");
   background-size: 700px;
